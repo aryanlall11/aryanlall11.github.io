@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Projects | Aryan Lall</title>
+    <link rel="shortcut icon" href="images/swag.PNG">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+            <a href="index.html">
+            <img id="profile-pic" src="images/project.JPG">
+            <h1>Aryan Lall</h1>
+            </a>
+            <p><em>"If you are good at something, never do it for free"</em></p>
+
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                <!--<li><a href="" target="_blank" target="_blank" class="twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+                    </a>
+                </li>-->
+                <li><a href="" target="_blank" target="_blank" class="github">
+                    <i class="fa fa-github" aria-hidden="true"></i> Github
+                    </a>
+                </li>
+                <li><a href="" target="_blank" target="_blank" class="linkedin">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
+                    </a>
+                </li>
+                <li><a href="" target="_blank" class="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span id="email">Email</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <div id="navigation-bar">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    	<button type="button" id="sidebarCollapse" class="btn btn-info display-lg">
+                            <img id="button-img" src="images/project.JPG">
+                            <span>Aryan Lall</span>
+                        </button>
+                        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-collapse-btn">
+                            <i class="fa fa-align-justify"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html" id="home-btn">Home</a>
+                                </li>
+                            	<li class="nav-item">
+                                    <a class="nav-link" href="about.html" id="about-btn">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link resume" href="" target="_blank" target="_blank" id="resume-btn">Resume</a>
+                                </li>
+                                <!--<li class="nav-item">
+                                    <a class="nav-link" href="blogs.html" id="blogs-btn">Blogs</a>
+                                </li>-->
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="projects.html" id="projects-btn">Projects</a>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a class="nav-link" href="#contact" id="contact-btn">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Main Content to be loaded from snippets -->
+            <div id="mainContent" class="container projects">
+                <h1>Projects</h1>
+                
+                <div class="line"></div>
+                
+                <a class="collapse-section" data-toggle="collapse" href="#embedded-systems" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Embedded Systems <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="embedded-systems" class="collapse multi-collapse">
+
+                    <div class="project">
+                        <h3>Sparse Recovery Algorithm on a Low-end FPGA</h3> <a href="https://github.com/aryanlall11/Sparse-Recovery-with-FPGA" target="_blank" class="project-link"> Source Code</a> <a href="https://docs.google.com/presentation/d/16ES_SifW_S_mlckN5VR94pUNPt_cdzDx5mLB8rRqTpc/edit?usp=sharing" target="_blank" class="project-link"> Presentation</a> <br>
+                        <p>Implementation of Sparse Recovery Algorithm (Orthogonal Matching Pursuit) on a resource-constrained <a href="https://reference.digilentinc.com/reference/programmable-logic/cmod-a7/start#:~:text=The%20Digilent%20Cmod%20A7%20is%20a%20small%2C%2048-pin,SRAM%2C%20Quad%20SPI%20Flash%2C%20and%20basic%20I%2FO%20devices." target="_blank">FPGA</a>. This project has wide applications in areas such as Wide Field magnetic field imaging, Photography, Network tomography, etc.</p>
+                        <img src="images/Projects/lenaOMP.png" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>FPGA Based Emoji Detector</h3> <a href="https://docs.google.com/document/d/1T35FGzqXmMsh90KQFOOPQp1iF00hlsfG2Dlh6F0rnGk/edit" target="_blank" class="project-link"> Documentation</a><br>
+                        <p>Secured 1<sup>st</sup> position in the GoPynq Competition, organized by Xilinx during <a href="https://techfest.org/" target="_blank">Techfest</a>'19. This required interfacing various components including web-cam with FPGA, essential for detection and processing while implementing algorithms such as PCA for Image segmentation and Emoji detection. The final round involved submission of a working protoype, competing with 30 other colleges across India.</p>
+                        <iframe src="https://drive.google.com/file/d/1O14t5m1GuaUh8xiqrb9NNXoeOoC6vKUi/preview" width="640" height="480" class="project-pic"></iframe>
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Research Project: <a href="http://www.ee.iitb.ac.in/~kasturis/index.php" target="_blank">P-Quest Lab</a></h3><br>
+                        <p>Working on developing an FPGA based Feedback System and Control Protocols for the Spin-based Quantum Systems, primarily focussing on NV centers, ODMR and NMR experiments for high sensitivity magnetic sensing.</p>
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Ultra-fast Current-Voltage (I-V) curve scanner</h3> <a href="https://github.com/aryanlall11/Ultra-Fast-IV-Curve-Scanner/blob/master/Ultra-Fast-IV-Curve-Scanner-master/PWM_arduino/ULTRA%20FAST%20I-V%20MEASUREMENT.pdf" target="_blank" class="project-link"> Presentation</a>
+                        <a href="https://github.com/aryanlall11/Ultra-Fast-IV-Curve-Scanner/blob/master/Ultra-Fast-IV-Curve-Scanner-master/PWM_arduino/User%20Manual.pdf" target="_blank" class="project-link"> User Manual</a>
+                        <a href="https://github.com/aryanlall11/Ultra-Fast-IV-Curve-Scanner/tree/master/Ultra-Fast-IV-Curve-Scanner-master/PWM_arduino" target="_blank" class="project-link"> Source Code</a><br>
+                        <p>Developed and successfully tested an I-V tracer circuit for power semiconductor devices using pulsed I-V measurement technique. The module would be deployed for accelerated testing of solar panels, monitoring the health of by-pass diodes, in manufacturing lines and as testing measurement equipment for various purposes.</p>
+                        <img src="images/Projects/iv.png" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Control using Brainwaves</h3> <a href="https://docs.google.com/document/d/1hfgvBDWcNr1OqCYr5H-_nuP20_layZW7lhvQnXwymO8/edit?usp=sharing" target="_blank" class="project-link"> Documentation</a><br>
+                        <p>Developed a single-channel low-cost circuit for Electroencephalographic(EEG) signal acquisition. This required designing a low-power noiseless filter bank to extract the frequencies of interest (8Hz-40Hz) and analyzing various techniques for feature extraction and classification of acquired signals.</p>
+                        <img src="images/Projects/eeg.PNG" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Smart Paper Cutter</h3><br>
+                        <p>A Cost-effective and Environment-friendly cutter which segregates unused portion of the used paper, and thus capable of saving Rs 54k annually by reusing old papers with a peak power consumption of 12W. This was developed as a part of Inter IIT Tech meet 2k18, where we stood as the 2<sup>nd</sup> runner-up among 23 other IITs.</p>
+                        <img src="images/Projects/spc.PNG" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Smart Vending machine</h3><a href="https://docs.google.com/document/d/1cDB3o3SJNCHtUoLdQiV3TuUZPkB2-0h3bWSkpg5579I/edit?usp=sharing" target="_blank" class="project-link"> Documentation</a><br>
+                        <p>Implemented a cheap, power efficient and user friendly vending machine with safety features including sending sms to the vendor, informing about exhaustion of products or an attempt to damage the machine.</p>
+                        <img src="images/Projects/vending.PNG" class="project-pic">
+                    </div>
+                </section>
+                <div class="line"></div>
+
+                <a class="collapse-section" data-toggle="collapse" href="#computer-architecture" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Computer Architecture <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="computer-architecture" class="collapse multi-collapse">
+
+                    <div class="project">
+                        <h3>Static Timing Analysis Model</h3><br>
+                        <p>The model computes the execution time of a given set of low-level instruction codes for a class of register-to-register Vector Processors, following in-order execution. This also covers all the dependencies and constraints existing among various instructions.</p>
+                    </div>
+
+                    <div class="project">
+                        <h3>Pipelined Processor Design</h3><br>
+                        <p>Developed a 6-stage Pipelined processor using VHDL, which was capable of executing 15 instruction sets using an 8-register and 16-bit computing system. This also involved optimizing the architecture performance by including Hazard mitigation blocks and Branch predictors.</p>
+                    </div>
+                </section>
+                <div class="line"></div>
+
+                <a class="collapse-section" data-toggle="collapse" href="#ssp" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Student Satellite Team <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="ssp" class="collapse multi-collapse">
+                    <div class="project">
+                        <h3>Star Tracker-based Attitude Determination System</h3><a href="https://drive.google.com/file/d/1-LlI9D1weJCiQdkQfO8tDzHefBcVC20W/view?usp=sharing" target="_blank" class="project-link"> Abstract</a><br>
+                        <p>A CubeSat-compatible modular Star Tracker-based Attitude Determination System to be tested on <a href="https://www.isro.gov.in/update/15-jun-2019/announcement-of-opportunity-ao-orbital-platform" target="_blank">PS4-OP</a> by ISRO. Currently developing an FPGA-based framework for storing and processing Star images onboard.</p>
+                        <img src="images/Projects/stads.PNG" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Advitiy</h3> <br>
+                        <p>Advitiy is the 2<sup>nd</sup> student satellite of IIT Bombay, technically advanced and efficient version of the 1<sup>st</sup>, <a href="https://en.wikipedia.org/wiki/Pratham_%28satellite%29" target="_blank">Pratham</a>. As a member of the Electrical Subsytem, I was involved in the design of power distribution circuit, interfacing with peripherals and implementation of the control algorithm.</p>
+                        <img src="images/Projects/advitiy.PNG" class="project-pic">
+                    </div>
+                </section>
+                <div class="line"></div>
+
+                <a class="collapse-section" data-toggle="collapse" href="#web-development" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Web Development <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="web-development" class="collapse multi-collapse">
+                    <div class="project">
+                        <h3>CrakX - Transforming your Preparation</h3> <a href="https://play.google.com/store/apps/details?id=io.iitb.firebase_test" target="_blank" class="project-link"> Download now!</a>
+                        <a href="https://crakx.github.io/" target="_blank" class="project-link">Website</a><br>
+                        <p>App to help navigate through the latest campus resources to boost placement and internship preparation. This has acquired 5k+ users since its launch, followed by appreciation from IIT Bombay and users across the country.</p>
+                        <img src="images/Projects/crakx.PNG" class="project-pic">
+                    </div>
+                </section>
+                <div class="line"></div>
+
+                <a class="collapse-section" data-toggle="collapse" href="#robotics" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Robotics <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="robotics" class="collapse multi-collapse">
+                    <div class="project">
+                        <h3>Robotic Fish</h3><br>
+                        <p>A Robotic fish that was capable of maneuvering underwater. Designed the complete three dimensional model of the fish, which was later 3D printed and a control algorithm was implemented for maneuvering a 3-link manipulator with servo motors as actuators.</p>
+                        <img src="images/Projects/fish.PNG" class="project-pic">
+                    </div>
+
+                    <div class="softline"></div>
+                    <div class="project">
+                        <h3>Other Projects</h3><br>
+                        <p>A Line follower bot - An arduino based automated line or path following 3-wheeled bot, based on the Proportional–integral derivative control(PID) algorithm.<br>
+                        XLR8 - An arduino based Bluetooth controlled 4-wheeled bot that overcame an obstacle course and passed the XLR8 competition successfully.</p>
+                    </div>
+                </section>
+                <div class="line"></div>
+
+                <a class="collapse-section" data-toggle="collapse" href="#machine-learning" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2>Machine Learning <i class="fa fa-angle-down rotate-icon"></i></i></h2></a>
+                <section id="machine-learning" class="collapse multi-collapse">
+                    <div class="project">
+                        <h3>Handwritten Expression Solver</h3><br>
+                        <p>A Solver that recognizes handwritten mathematical expression from an image and subsequently evaluates it. This invloved segmentation of digits and symbols from the given image, and developing a 3-layered CNN for recognizing the segmented components.</p>
+                        <img src="images/Projects/hes.PNG" class="project-pic">
+                    </div>
+                    <div class="softline"></div>
+                </section>
+
+                <div class="line"></div>
+                <div class="vspace"></div>
+                <h1>Publications</h1>
+                <ul id="publications">
+                    <li>
+                        <p><a href="https://drive.google.com/file/d/1-LlI9D1weJCiQdkQfO8tDzHefBcVC20W/view?usp=sharing" target="_blank">An Approach to Star Tracker Design for Nano-Satellite Applications</a><br>
+                        <em>Katla V., Lall A. et al.<br>
+                         NCSSTA '20: 2<sup>nd</sup> National Conference on Small Satellite Technology and Applications 2020</em></p>
+                    </li>
+
+                    <li>
+                        <p><a href="https://www.researchgate.net/publication/342013689_Survey_and_Analysis_of_Payloads_for_Missions_on_PSLV's_Orbital_Platform" target="_blank">Survey and Analysis of Payloads for Missions on PSLV's Orbital Platform</a><br>
+                        <em>Ranade A., Lall A. et al.<br>
+                         AIAA SciTech Forum, Nashville, Tennessee, USA, 2021</em></p>
+                    </li>
+                </ul>
+            </div>
+            
+            <footer id="contact" class="footer footer-row d-lg-none">
+                <div class="line"></div>
+                <h3>Contact<h3>
+                <div id="contact-group">
+                    <button type="button" class="btn contact-btn">
+                        <a href="" target="_blank" target="_blank" class="linkedin"><i class="fa fa-twitter" aria-hidden="true"></i> Linkedin</a>
+                    </button>
+                    <!--<button type="button" class="btn contact-btn">
+                        <a href="" target="_blank" target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                    </button>-->
+                    <button type="button" class="btn contact-btn">
+                        <a href="" target="_blank" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                    </button>
+                    <button type="button" class="btn contact-btn" id="email-big">
+                        <a href="" target="_blank" class="email email-full"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </button>
+                    <button type="button" class="btn contact-btn" id="email-small">
+                        <a href="" target="_blank" class="email"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+                    </button>
+                </div>
+            </footer>
+
+        </div>
+
+        
+        
+    </div>
+
+    <!-- jQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Sidebar toggle -->
+    <script src="js/sidebar.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
